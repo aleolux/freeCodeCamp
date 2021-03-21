@@ -13,6 +13,7 @@
         line-height: 1.5;
         color: rgb(33, 56, 56);
         margin: 0;
+        font-size:1.6rem;
     }
 
     #main {
@@ -33,13 +34,41 @@
         line-height: 0.3;
         }
 
+    @media(max-width:460px){
+        h1 {
+            font-size: 1.8rem;
+        }
+        h2 {
+            font-size: 1.3rem;
+        }
+        body {
+            font-size:1.2rem;
+        }
+        #img-div {
+            padding: 0px;
+            margin-left:0px;
+            margin-right:0px;
+        }
+        #img-caption {
+            font-size: 0.7rem;
+        }
+        #image {
+            max-width:100%;
+        }
+        #main {
+            margin:0px;
+            border-radius:0%;
+            padding:5px;
+        }
+        #quote {
+            margin:auto;
+            font-size: 1.2rem;
+        }
+    }
+
     h2 {
         font-size: 3rem;
     }
-
-    p {
-        font-size: 1.5rem;
-        }
 
     #img-div {
         background: white;
@@ -63,7 +92,6 @@
         line-height: 1.5;
         text-align: justify;
         text-justify: inter-word;
-        font-size: 1.5rem;
     }
 
     li {
@@ -90,10 +118,6 @@
     a:hover{
         font-size: 1.5rem;
         color:royalblue;
-    }
-
-    a:visited{
-        color: darkslateblue;
     }
 
 </style>
