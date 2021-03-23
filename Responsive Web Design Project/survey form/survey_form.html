@@ -9,15 +9,15 @@
 <html>
         <header>    
             <h1 id="title">Thank you for visiting us!</h1>
-            <h3>We appreciate if you could spend just a little moment with us to share your feedback.</h3>
+            <p id="description">We appreciate if you could spend just a little moment with us to share your feedback.</p>
         </header>
 
     <div class="container" id="container">
     
         <form id="survey-form">
 
-            <h2 id="description">Survey Form</h2>
-    
+            <h2>Survey Form</h2>
+
             <label for="name" id="name-label">First name:</label><br>
             <input id="name" type="text" name="name" placeholder="Input your first name" required><br>
     
@@ -25,7 +25,7 @@
             <input id="email" name="email" type="email" placeholder="Input your email address" required><br>
     
             <label for="number" id="number-label">Phone:</label><br>
-            <input id="number" name="number" type="tel" placeholder="Input your phone number"><br>
+            <input id="number" name="number" type="tel" pattern="[0-9]{10}" placeholder="Input your phone number" min="1" max="999999999"><br>
     
             <label for="dropdown" id="dropdown-label">Site where you stayed at:</label><br>
             <select id="dropdown" name="dropdown" required>
@@ -87,11 +87,16 @@
             <label for="xp-site" id=label-site>Facilities on site</label>
             <br>
             
-            <div id="button-container"><input type="submit"></div>
+            <div id="button-container"><input id="submit" type="submit"></div>
             
 
         </form>
 
+    </div>
+
+    <div id="signature">
+        <p>Design by Adrien Timbert</p>
+        <a id="mygit" href="https://github.com/aleolux" target=_blank>github</a>
     </div>
 
 </html>
