@@ -1,53 +1,52 @@
  html, body{
     height:100%;
-    margin:0;
- }
-
- main {
-    margin-top:50px;
-    height:100%;
- }
-
- .panel {
-    height:100%;
-    min-height:100%;
+    margin: 0;
+    font-family: "Poppins", "monospace";
+    font-size:10px;
     color:white;
-  }
-  
-  html>body .panel {
-    height:auto;
-  }
+ }
+
+ .full-height{
+  height:100%;
+ }
 
   #panel-one{
-      background-color: blue;
+      background-image: url("https://nuvomagazine.scdn2.secure.raxcdn.com/wp-content/uploads/2020/07/FOGHOUSE_HR00-scaled.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
   }
 
   #panel-two{
-    background-color:green;
+    background-color:white;
 }
 
   #panel-three{
-    background-color: yellow;
+    background-color: gray;
 }
 
-.navbar {
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    top: 0;
-    width: 100%;
+h1 {
+    font-size: 6rem;
+    margin:0;
+    position:relative;
+    top: 50rem;
+    padding-left: 23rem;
   }
 
-.navbar a {
-    float: left;
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-.navbar a:hover {
-    background: #ddd;
-    color: black;
-  }
+.flex-container{
+  display: flex;
+  flex-direction: row:
+}
+
+#item1{
+  background:transparent;
+  width: 45%;
+  height: 100%;
+}
+
+#item2{
+  background: transparent;
+  width: 55%;
+  height: 100%;
+  text-align: center;
+}
