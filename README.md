@@ -13,3 +13,4 @@ Html hosted on: https://codepen.io/aleolux
 2) https://levelup.gitconnected.com/the-5-must-haves-for-a-developer-portfolio-website-d0bd35ec0e89
 3) https://codepen.io/maltyeva/pen/ebJrOP
 4) https://www.canva.com/colors/color-palettes/page/2/
+5) https://betterprogramming.pub/im-a-self-taught-developer-and-i-used-these-free-resources-to-land-my-first-job-5091b01293c4
