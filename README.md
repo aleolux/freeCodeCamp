@@ -9,7 +9,7 @@ Html hosted on: https://codepen.io/aleolux
 4) https://www.guru99.com/mongodb-tutorials.html
 
 # Just cool links
-1)https://levelup.gitconnected.com/build-a-software-developer-portfolio-website-in-5-days-de3f86d1efee
-2)https://levelup.gitconnected.com/the-5-must-haves-for-a-developer-portfolio-website-d0bd35ec0e89
-3)https://codepen.io/maltyeva/pen/ebJrOP
-4)https://www.canva.com/colors/color-palettes/page/2/
+1) https://levelup.gitconnected.com/build-a-software-developer-portfolio-website-in-5-days-de3f86d1efee
+2) https://levelup.gitconnected.com/the-5-must-haves-for-a-developer-portfolio-website-d0bd35ec0e89
+3) https://codepen.io/maltyeva/pen/ebJrOP
+4) https://www.canva.com/colors/color-palettes/page/2/
